@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-color: #33363b;
+}
+
+.AppHeader {
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.AppBody {
+  color: white;
+  text-align: center;
+}
+
+.AppForm {
+  margin-top: 2%;
+}
+
+.StockInfo {
+  margin: auto;
+  margin-top: 2%;
+  background-color: rgba(57, 160, 202, 0.75);
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.StockInfo h3 {
+  padding-top: 15px;
+}
+
+.button {
+  background-color: #39a0ca;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: #73c2fb;
+}
+
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-right: 5px;
+  box-sizing: border-box;
+  font-style: bold;
+}
